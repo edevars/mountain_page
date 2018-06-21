@@ -1,0 +1,31 @@
+h3
+{
+  color: $color-third;
+  font-family: $font-family;
+  font-size: $Grande;
+  padding-left: $padding;
+  padding-right: $padding;
+}
+
+h4
+{
+  font-family: $font-family;
+  font-size: $Normal;
+  color: $color-light;
+  padding-left: $padding;
+  padding-right: $padding;
+  text-align: center;
+}
+
+li
+{
+  list-style: none;
+  color: $color-light;
+}
+
+p{
+    font-family: $font-family;
+    padding-left: $padding;
+    padding-right: $padding;
+    text-align: justify;
+}

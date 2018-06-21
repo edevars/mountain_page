@@ -1,5 +1,90 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 body {
-  background-color: #044081; }
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-color: #760ba2;
+  width: 100%; }
+
+nav {
+  background-color: #2a029e;
+  margin: 0px auto;
+  width: 75vw; }
+
+section {
+  background-color: #fcfce7;
+  margin: 0px auto;
+  width: 75vw; }
+
+footer {
+  background-color: #1f1f1f;
+  margin: 0px auto; }
+
+.gridnav {
+  display: grid;
+  grid-template: 1fr / .2fr .8fr;
+  grid-row-gap: 50px;
+  background-color: #2a029e; }
+
+.nav_cell_a {
+  display: flex;
+  justify-content: center; }
+
+.navico {
+  height: 15vh;
+  width: 15vh; }
+
+.navlist {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center; }
+
+.navitem {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 10px;
+  font-weight: bold; }
+
+.hero {
+  margin: 0px auto;
+  width: 75vw;
+  height: 28.125vw; }
+
+.tarjetas {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 60vw; }
+
+.item_tarjeta {
+  background-color: #3e61de;
+  width: 30%;
+  margin: 15px 10px; }
+
+h3 {
+  color: #d400ff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  padding-left: 36px;
+  padding-right: 36px; }
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #fcfce7;
+  padding-left: 36px;
+  padding-right: 36px;
+  text-align: center; }
+
+li {
+  list-style: none;
+  color: #fcfce7; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  padding-left: 36px;
+  padding-right: 36px;
+  text-align: justify; }
 
 /*# sourceMappingURL=main.css.map */

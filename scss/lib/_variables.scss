@@ -1,10 +1,21 @@
  @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 // ----------------$COLORES-----------------------
-$color-primary: rgb(4, 64, 129);
-$color-secondary:rgb(255, 230, 0);
-$color-third: rgb(255, 153, 0);
+$color-primary: rgb(118, 11, 162);
+$color-secondary:rgba(42, 2, 158, 1);
+$color-third: rgb(212, 0, 255);
 $color-light: rgb(252, 252, 231);
 $color-black: rgb(31, 31, 31);
+$color-light-pink: rgb(254, 194, 250);
+$color-card:rgb(62, 97, 222);
 
 // -----------------------$FUENTES---------------------
 $font-family: 'Open Sans', sans-serif;
+//----------------- $TAMAÑOS---------------------------
+$Grande: 36px;
+$Mediano: 21px;
+$Normal: 18px;
+$parrafo: 14px;
+
+$width: 75vw;
+$padding: 36px;
+$nav_width: 15vh;

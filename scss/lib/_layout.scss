@@ -1,3 +1,90 @@
+
 body{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
   background-color: $color-primary;
+  width: 100%;
+}
+
+nav{
+  background-color: $color-secondary;
+  margin: 0px auto;
+  width: $width;
+}
+
+section{
+  background-color: $color-light;
+  margin: 0px auto;
+  width: $width;
+}
+
+footer{
+  background-color: $color-black;
+  margin: 0px auto;
+}
+
+// HIJOS DE LOS CONTENEDORES
+
+.gridnav
+{
+  display: grid;
+  grid-template: 1fr / .2fr .8fr;
+  grid-row-gap: 50px;
+  background-color: $color-secondary;
+}
+
+.nav_cell_a
+{
+  display: flex;
+  justify-content: center;
+}
+
+.nav_cell_b
+{
+
+}
+
+.navico
+{
+  height: $nav_width;
+  width: $nav_width;
+}
+
+.navlist
+{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navitem
+{
+  font-family: $font-family;
+  padding: 10px 10px;
+  font-weight: bold;
+}
+
+.hero
+{
+  margin: 0px auto;
+  width: $width;
+  height: ($width/4)*1.5;
+}
+
+.tarjetas
+{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: $width*(0.8);
+}
+
+.item_tarjeta
+{
+  background-color: $color-card;
+  width: 30%;
+  margin: 15px 10px;
 }
