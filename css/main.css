@@ -9,6 +9,7 @@ body {
 nav {
   background-color: #2a029e;
   margin: 0px auto;
+  margin-top: 100px;
   width: 75vw; }
 
 section {
@@ -42,7 +43,7 @@ footer {
 
 .navitem {
   font-family: "Open Sans", sans-serif;
-  padding: 10px 10px;
+  margin: 10px 10px;
   font-weight: bold; }
 
 .hero {
