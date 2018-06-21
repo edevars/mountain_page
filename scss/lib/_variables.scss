@@ -9,20 +9,25 @@ $color-light-pink: rgb(254, 194, 250);
 $color-card:rgb(62, 97, 222);
 
 // -----------------------$FUENTES---------------------
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');//Open Sans
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');//Roboto
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');//Kaushan Script
+@import url('https://fonts.googleapis.com/css?family=Montserrat');//Montserrat
+
 $font-family: 'Open Sans', sans-serif;
 $font-secondary: 'Roboto Condensed', sans-serif;
-$font-handwriting: 'Kaushan Script', cursive;;
+$font-handwriting: 'Kaushan Script', cursive;
+$font-paragraph: 'Montserrat', sans-serif;
+
+
 
 
 //----------------- $TAMAÑOS---------------------------
 $Grande: 42px;
-$Mediano: 24px;
+$Mediano: 27.5px;
 $Normal: 21px;
 $parrafo: 14px;
 
 $width: 75vw;
-$padding: 36px;
+$padding: 25px;
 $nav_width: 100%;

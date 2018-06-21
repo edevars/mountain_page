@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
   display: flex;
   flex-flow: column wrap;
@@ -15,9 +16,16 @@ nav {
   width: 75vw; }
 
 section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fcfce7;
   margin: 0px auto;
   width: 75vw; }
+
+.content_section {
+  border: 1px solid red;
+  width: 60vw; }
 
 footer {
   background-color: #1f1f1f;
@@ -47,7 +55,7 @@ footer {
 
 .navitem {
   font-family: "Open Sans", sans-serif;
-  font-size: 24px;
+  font-size: 21px;
   margin: 10px 10px;
   font-weight: bold; }
 
@@ -60,8 +68,7 @@ footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin: 0 auto;
-  width: 60vw; }
+  margin: 0 auto; }
 
 .item_tarjeta {
   display: flex;
@@ -88,15 +95,15 @@ h3 {
   color: #d400ff;
   font-family: "Open Sans", sans-serif;
   font-size: 42px;
-  padding-left: 36px;
-  padding-right: 36px; }
+  padding-left: 25px;
+  padding-right: 25px; }
 
 h4 {
   font-family: "Kaushan Script", cursive;
   font-size: 21px;
   color: #fcfce7;
-  padding-left: 36px;
-  padding-right: 36px;
+  padding-left: 25px;
+  padding-right: 25px;
   text-align: center; }
 
 li {
@@ -104,9 +111,9 @@ li {
   color: #fcfce7; }
 
 p {
-  font-family: "Open Sans", sans-serif;
-  padding-left: 36px;
-  padding-right: 36px;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 25px;
+  padding-right: 25px;
   text-align: justify; }
 
 /*# sourceMappingURL=main.css.map */
