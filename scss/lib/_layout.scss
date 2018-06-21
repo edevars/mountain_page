@@ -3,7 +3,7 @@ body{
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  background-color: $color-primary;
+  background-image: linear-gradient(100deg, $color-primary,$color-light-pink);
   width: 100%;
 }
 
@@ -39,17 +39,14 @@ footer{
 {
   display: flex;
   justify-content: center;
-}
-
-.nav_cell_b
-{
-
+  height: 15vh;
 }
 
 .navico
 {
-  height: $nav_width;
-  width: $nav_width;
+  height: $nav_width*.9;
+  width: $nav_width*.5;
+  margin: 10px;
 }
 
 .navlist
@@ -81,11 +78,29 @@ footer{
   justify-content: space-around;
   margin: 0 auto;
   width: $width*(0.8);
+
 }
 
 .item_tarjeta
 {
-  background-color: $color-card;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  flex-wrap: wrap;
+  background-image: linear-gradient(90deg,$color-secondary, $color-card);
   width: 30%;
+  min-width: 240px;
   margin: 15px 10px;
+  border-radius: 10px;
+}
+
+.img_tarjeta
+{
+  width: 80%;
+  min-width: 160px;
+  height: 15vh;
+  min-height: 120px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
