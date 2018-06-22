@@ -1,33 +1,30 @@
-
 // ----------------$COLORES-----------------------
 $color-primary: rgb(118, 11, 162);
-$color-secondary:rgba(42, 2, 158, 1);
+$color-secondary: rgba(42, 2, 158, 1);
 $color-third: rgb(212, 0, 255);
 $color-light: rgb(252, 252, 231);
 $color-black: rgb(31, 31, 31);
 $color-light-pink: rgb(254, 194, 250);
-$color-card:rgb(62, 97, 222);
-
+$color-card: rgb(62, 97, 222);
+$color-button: rgb(100, 3, 116);
+$color-accept: rgb(14, 142, 80);
+$color-accept-deg: rgb(25, 214, 50);
+$color-warning: rgb(158, 42, 21);
+$color-warning-deg: rgb(255, 40, 0);
 // -----------------------$FUENTES---------------------
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');//Open Sans
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');//Roboto
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');//Kaushan Script
-@import url('https://fonts.googleapis.com/css?family=Montserrat');//Montserrat
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); //Open Sans
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed'); //Roboto
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script'); //Kaushan Script
+@import url('https://fonts.googleapis.com/css?family=Montserrat'); //Montserrat
 $font-family: 'Open Sans', sans-serif;
 $font-secondary: 'Roboto Condensed', sans-serif;
 $font-handwriting: 'Kaushan Script', cursive;
 $font-paragraph: 'Montserrat', sans-serif;
-
-
-
-
 //----------------- $TAMAÑOS---------------------------
 $Grande: 42px;
 $Mediano: 27.5px;
 $Normal: 21px;
 $parrafo: 14px;
-
 $width: 75vw;
 $padding: 25px;
-$nav_width: 100%;
+$nav_width: 80px;

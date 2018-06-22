@@ -1,5 +1,4 @@
-h3
-{
+h3 {
   color: $color-third;
   font-family: $font-family;
   font-size: $Grande;
@@ -7,26 +6,45 @@ h3
   padding-right: $padding;
 }
 
-h4
-{
+.secondary {
+  color: $color-card;
+  text-align: center;
+}
+
+h4 {
   font-family: $font-handwriting;
   font-size: $Normal;
   color: $color-light;
   padding-left: $padding;
   padding-right: $padding;
   text-align: center;
-
 }
 
-li
-{
+li {
   list-style: none;
   color: $color-light;
 }
 
-p{
-    font-family: $font-paragraph;
-    padding-left: $padding;
-    padding-right: $padding;
-    text-align: justify;
+p {
+  font-family: $font-paragraph;
+  padding-top: 0;
+  padding-left: $padding;
+  padding-right: $padding;
+  margin-top: 0;
+  text-align: justify;
+}
+
+h5
+{
+  font-family: $font-family;
+  font-size: $Normal;
+  color: $color-light;
+  margin: 15px;
+}
+
+.light{
+  color: $color-light;
+  font-size: $parrafo;
+  font-weight: lighter;
+  display: inline-block;
 }

@@ -1,115 +1,108 @@
-
-body{
+body {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   background-image: linear-gradient(100deg, $color-primary,$color-light-pink);
-  width: 100%;
 }
 
-nav{
+nav {
   background-color: $color-secondary;
-  margin: 0px auto;
   margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
   width: $width;
+  height: $nav_width;
 }
 
-section{
+section {
   display: flex;
-  justify-content: center;
+  flex-flow: column;
   align-items: center;
   background-color: $color-light;
-  margin: 0px auto;
+  margin: 0 auto;
   width: $width;
 }
 
-.content_section
-{
-    border: 1px solid red;
-    width: $width*(0.8);
+.content_section {
+  width: $width*(0.8);
+  margin-bottom: 30px;
 }
 
-footer{
+.content_text {
+  display: flex;
+  flex-flow: row;
+  padding-top: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
   background-color: $color-black;
-  margin: 0px auto;
+  margin: 0 auto;
+  width: $width;
+  margin-bottom: 100px;
+  padding: $padding*.5 0;
 }
-
 // HIJOS DE LOS CONTENEDORES
 
-.gridnav
-{
+.gridnav {
   display: grid;
-  grid-template: 1fr / .2fr .8fr;
-  grid-row-gap: 50px;
-  background-color: $color-secondary;
+  grid-template: 1fr / 0.2fr 0.8fr;
 }
 
-.nav_cell_a
-{
+.nav_cell_a {
   display: flex;
   justify-content: center;
-  height: 15vh;
+  align-items: center;
+  height: $nav_width;
 }
 
-.navico
-{
-  height: $nav_width*.9;
-  width: $nav_width*.5;
-  margin: 10px;
+.navico {
+  height: $nav_width*.8;
+  width: $nav_width*.8;
 }
 
-.navlist
-{
+.navlist {
   display: flex;
   flex-flow: row wrap;
+  align-self: center;
   justify-content: space-around;
-  align-items: center;
 }
 
-.navitem
-{
+.navitem {
   font-family: $font-family;
   font-size: $Normal;
-  margin: 10px 10px;
+  margin: 10px;
   font-weight: bold;
 }
 
-.hero
-{
-  margin: 0px auto;
+.hero {
+  margin: 0 auto;
   width: $width;
   height: ($width/4)*1.5;
 }
 
-.tarjetas
-{
+.img_text {
+  width: 35vh;
+  height: 25vh;
+}
+
+.socialmedia {
   display: flex;
-  flex-flow: row wrap;
   justify-content: space-around;
-  margin: 0 auto;
-}
-
-.item_tarjeta
-{
-  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  flex-direction:column;
-  flex-wrap: wrap;
-  background-image: linear-gradient(90deg,$color-secondary, $color-card);
-  width: 30%;
-  min-width: 280px;
-  max-width: 360px;
-  margin: 15px 10px;
-  border-radius: 10px;
+  min-width: $width*.5;
+  margin: 15px;
 }
 
-.img_tarjeta
-{
-  width: 70%;
-  min-width: 160px;
-  height: 15vh;
-  min-height: 120px;
-  border-radius: 10px;
-  margin-bottom: 20px;
+.tags {
+  padding: 15px;
+  margin: 15px;
+}
+
+.img_ico {
+  width: 48px;
+  height: 48px;
+  margin: 0 15px;
 }

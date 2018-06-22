@@ -1,0 +1,59 @@
+//Boton normal
+
+.buttons_content{
+  width: $width*0.8;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin-bottom: 42px;
+}
+
+button{
+  width: 120px;
+  height: 60px;
+  color: $color-light;
+  font-family: $font-secondary;
+  font-size: $parrafo;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.normal_button {
+  background-image: linear-gradient(90deg, $color-primary,$color-third);
+}
+
+.normal_button:hover {
+  background: rgba(0,0,0,0);
+  color: $color-button;
+  box-shadow: inset 0 0 0 3px $color-button;
+}
+//boton secundario
+.secondary_button {
+background-image: linear-gradient(90deg, $color-secondary,$color-card);
+}
+
+.secondary_button:hover {
+  background: rgba(0,0,0,0);
+  color: $color-secondary;
+  box-shadow: inset 0 0 0 3px $color-secondary;
+}
+//Boton aceptar
+.accept_button {
+  background-image: linear-gradient(90deg, $color-accept,$color-accept-deg);
+}
+
+.accept_button:hover {
+  background: rgba(0,0,0,0);
+  color: $color-accept-deg;
+  box-shadow: inset 0 0 0 3px $color-accept-deg;
+}
+//Boton de alerta
+.warning_button {
+  background-image: linear-gradient(90deg, $color-warning,$color-warning-deg);
+}
+
+.warning_button:hover {
+  background: rgba(0,0,0,0);
+  color: $color-warning-deg;
+  box-shadow: inset 0 0 0 3px $color-warning-deg;
+}
